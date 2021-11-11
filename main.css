@@ -1,0 +1,59 @@
+body {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("backg.jpg");
+}
+#mathgame {
+  width: 450px;
+  height: 250px;
+  background-color: gray;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  margin-top: 230px;
+  border: 3px solid tomato;
+}
+h1 {
+  margin-bottom: 25px;
+  border: 1px solid #fff;
+  padding: 6px;
+  font-weight: 350;
+}
+span {
+  font-size: 120%;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+#result {
+  width: 90px;
+  padding: 4px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+#answer {
+  margin-top: 12px;
+  padding: 5px;
+  border: none;
+  width: 75px;
+  background: #4b4b4b;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+#answer:hover {
+  background: #000000;
+}
+#true,
+#false {
+  font-size: 150%;
+  margin-top: 20px;
+  padding: 12px;
+  display: inline-block;
+}
+#true {
+  background: rgb(4, 133, 0);
+}
+#false {
+  background: rgb(255, 10, 10);
+}
